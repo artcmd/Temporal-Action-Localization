@@ -1,6 +1,6 @@
 # Temporal Action Localization on THUMOS14
 
-updated on 01/15/2020
+updated on 03/01/2020
 
 ## Contents
 
@@ -57,3 +57,25 @@ updated on 01/15/2020
 
 ## Weakly-supervised Action Localization
 
+|    |        |      model     | approach |     feature     |  0.1 |  0.2 |  0.3 |  0.4 |  0.5 |  0.6 |  0.7 |
+|:--:|:------:|:--------------:|:--------:|:---------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|  1 | CVPR17 |  UntrimmedNet  |   weak   |     2Stream     | 44.4 | 37.7 | 28.2 | 21.1 | 13.7 |      |      |
+|  2 | CVPR17 | Richard et al. |   weak   |                 |      |      |      |      |      |      |      |
+|  3 | ICCV17 |  Hide-and-Seek |   weak   |     AlexNet     | 36.4 | 27.8 | 19.5 | 12.7 |  6.8 |      |      |
+|  4 | CVPR18 |      STPN      |   weak   |   UntrimmedNet  | 45.3 | 38.8 | 31.1 | 23.5 | 16.2 |  9.8 |  5.1 |
+|  4 | CVPR18 |      STPN      |   weak   |       I3D       | 52.0 | 44.7 | 35.5 | 25.8 | 16.9 |  9.9 |  4.3 |
+|  5 |  MM18  |  Zhong et al.  |   weak   |       TSN       | 45.8 | 39.0 | 31.1 | 22.5 | 15.9 |      |      |
+|  6 | ECCV18 |     W-TALC     |   weak   |   UntrimmedNet  | 49.0 | 42.8 | 32.0 | 26.0 | 18.8 |      |  6.2 |
+|  6 | ECCV18 |     W-TALC     |   weak   |       I3D       | 55.2 | 49.6 | 40.1 | 31.1 | 22.8 |      |  7.6 |
+|  7 | ECCV18 |     AutoLoc    |   weak   |       TSN       |      |      | 35.8 | 29.0 | 21.2 | 13.4 |  5.8 |
+|  8 | AAAI19 |      STAR      |   weak   |       I3D       | 68.8 | 60.0 | 48.7 | 34.7 | 23.0 |      |      |
+|  9 | ICLR19 |      MAAN      |   weak   |       I3D       | 59.8 | 50.8 | 41.1 | 30.6 | 20.3 | 12.0 |  6.9 |
+| 10 | CVPR19 |      CMCS      |   weak   |   UntrimmedNet  | 53.5 | 46.8 | 37.5 | 29.1 | 19.9 | 12.3 |  6.0 |
+| 10 | CVPR19 |      CMCS      |   weak   |       I3D       | 57.4 | 50.8 | 41.2 | 32.1 | 23.1 | 15.0 |  7.0 |
+| 11 | ICCV19 |  Nguyen et al. |   weak   |       I3D       | 60.4 | 56.0 | 46.6 | 37.5 | 26.8 | 17.6 |  9.0 |
+| 11 | ICCV19 |  Nguyen et al. |   weak   | I3D+microvideos | 64.2 | 59.5 | 49.1 | 38.4 | 27.5 | 17.3 |  8.6 |
+| 12 | ICCV19 |    CleanNet    |   weak   |       TSN       |      |      | 36.3 | 30.7 | 22.9 | 13.8 |  5.3 |
+| 12 | ICCV19 |    CleanNet    |   weak   |       TSN*      |      |      | 37.0 | 30.9 | 23.9 | 13.9 |  7.1 |
+| 13 | ICCV19 |     3C-Net     |   weak   |       I3D       | 59.1 | 53.5 | 44.2 | 34.1 | 26.6 |      |  8.1 |
+| 14 | AAAI20 |     BasNet     |   weak   |   UntrimmedNet  | 56.2 | 50.3 | 42.8 | 34.7 | 25.1 | 17.1 |  9.3 |
+| 14 | AAAI20 |     BasNet     |   weak   |       I3D       | 58.2 | 52.3 | 44.6 | 36.0 | 27.0 | 18.6 | 10.4 |

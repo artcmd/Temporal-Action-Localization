@@ -1,6 +1,6 @@
 # Temporal Action Localization
 
-updated on 01/15/2020
+updated on 03/01/2020
 
 ## Contents
 
@@ -70,11 +70,11 @@ updated on 01/15/2020
 |  5 |    MM18    |  Zhong et al.  |        Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector       |
 |  6 |   ECCV18   |     W-TALC     |               W-TALC: Weakly-supervised Temporal Activity Localization and Classification              |
 |  7 |   ECCV18   |     AutoLoc    |                         AutoLoc: Weakly-supervised Temporal Action Localization                        |
-|  8 |   AAAI19   |    Xu et al.   |     Segregated Temporal Assembly Recurrent Networks for Weakly Supervised Multiple Action Detection    |
+|  8 |   AAAI19   |      STAR      |     Segregated Temporal Assembly Recurrent Networks for Weakly Supervised Multiple Action Detection    |
 |  9 |   ICLR19   |      MAAN      |                 Marginalized Average Attentional Network for Weakly-Supervised Learning                |
 | 10 |   CVPR19   |      CMCS      |     Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization    |
 | 11 |   ICCV19   |  Nguyen et al. |                     Weakly-supervised Action Localization with Background Modeling                     |
-| 12 |   ICCV19   |   Liu et al.   |        Weakly Supervised Temporal Action Localization Through Contrast Based Evaluation Networks       |
+| 12 |   ICCV19   |    CleanNet    |        Weakly Supervised Temporal Action Localization Through Contrast Based Evaluation Networks       |
 | 13 |   ICCV19   |     3C-Net     |            3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization            |
 | 14 |   AAAI20   |     BasNet     |            Background Suppression Network for Weakly-supervised Temporal Action Localization           |
 
