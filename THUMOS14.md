@@ -1,6 +1,6 @@
 # Temporal Action Localization on THUMOS14
 
-updated on 03/01/2020
+updated on 03/02/2020
 
 ## Contents
 
@@ -40,19 +40,22 @@ updated on 03/01/2020
 |  5 | ICCV19 |      BMN      | boundary |                 |          | UntrimmedNet |      |      | 56.0 | 47.4 | 38.8 | 29.7 | 20.5 |
 |  6 | AAAI20 |      DBG      | boundary |                 |          |     S-CNN    |      |      | 45.9 | 40.4 | 32.9 | 25.3 | 18.4 |
 |  6 | AAAI20 |      DBG      | boundary |                 |          | UntrimmedNet |      |      | 57.8 | 49.4 | 39.8 | 30.2 | 21.7 |
-
+|  7 |  ToMM  |      RAM      | boundary |       TAG       |  SSN+RAM |              | 65.4 | 63.1 | 58.8 | 52.7 | 43.7 |      |      |
 
 
 ### One-stage Localization
 
-|   |        |     model    |  approach |   feature   |  0.1 |  0.2 |  0.3 |  0.4 |  0.5 |
-|:-:|:------:|:------------:|:---------:|:-----------:|:----:|:----:|:----:|:----:|:----:|
-| 2 | CVPR16 | Yeung et al. | one-stage |    VGG16    | 48.9 | 44.0 | 36.0 | 26.4 | 17.1 |
-| 3 | CVPR17 |      SMS     | one-stage |   2Stream   | 51.0 | 45.2 | 36.5 | 27.8 | 17.8 |
-| 4 |  MM17  |     SSAD     | one-stage | 2Stream+C3D | 50.1 | 47.8 | 43.0 | 35.0 | 24.6 |
-| 5 | CVPR19 |     GTAN     | one-stage |     C3D     | 67.2 | 61.1 | 56.9 | 46.5 | 37.9 |
-| 5 | CVPR19 |     GTAN     | one-stage |     P3D     | 69.1 | 63.7 | 57.8 | 47.2 | 38.8 |
-
+|   |        |     model     |  approach |       feature      |  0.1 |  0.2 |  0.3 |  0.4 |  0.5 |  0.6 |  0.7 |
+|:-:|:------:|:-------------:|:---------:|:------------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| 2 | CVPR16 |  Yeung et al. | one-stage |        VGG16       | 48.9 | 44.0 | 36.0 | 26.4 | 17.1 |      |      |
+| 3 | CVPR17 |      SMS      | one-stage |       2Stream      | 51.0 | 45.2 | 36.5 | 27.8 | 17.8 |      |      |
+| 4 |  MM17  |      SSAD     | one-stage |     2Stream+C3D    | 50.1 | 47.8 | 43.0 | 35.0 | 24.6 |      |      |
+| 5 | BMVC17 |     SS-TAD    | one-stage |                    |      |      | 45.7 |      | 29.2 |      |  9.6 |
+| 6 | CVPR19 |      GTAN     | one-stage |         C3D        | 67.2 | 61.1 | 56.9 | 46.5 | 37.9 |      |      |
+| 6 | CVPR19 |      GTAN     | one-stage |         P3D        | 69.1 | 63.7 | 57.8 | 47.2 | 38.8 |      |      |
+| 7 | ICME19 | Decouple-SSAD | one-stage |  2Stream (UCF101)  |      |      | 49.9 | 44.4 | 35.8 | 24.3 | 13.6 |
+| 7 | ICME19 | Decouple-SSAD | one-stage | 2Stream (Kinetics) |      |      | 60.2 | 54.1 | 44.2 | 32.3 | 19.1 |
+| 8 |        |     G-TAD     | one-stage |       GCNeXt       |      |      | 54.5 | 47.6 | 40.2 | 30.8 | 23.4 |
 
 
 ## Weakly-supervised Action Localization
