@@ -1,6 +1,6 @@
 # Temporal Action Localization on THUMOS14
 
-updated on 03/02/2020
+updated on 03/03/2020
 
 ## Contents
 
@@ -41,6 +41,11 @@ updated on 03/02/2020
 |  6 | AAAI20 |      DBG      | boundary |                 |          |     S-CNN    |      |      | 45.9 | 40.4 | 32.9 | 25.3 | 18.4 |
 |  6 | AAAI20 |      DBG      | boundary |                 |          | UntrimmedNet |      |      | 57.8 | 49.4 | 39.8 | 30.2 | 21.7 |
 |  7 |  ToMM  |      RAM      | boundary |       TAG       |  SSN+RAM |              | 65.4 | 63.1 | 58.8 | 52.7 | 43.7 |      |      |
+|  8 |        |    TSA-Net    | boundary |                 |  2Stream |     S-CNN    |      |      | 43.7 | 39.2 | 33.1 | 25.2 | 17.1 |
+|  8 |        |    TSA-Net    | boundary |                 |    P3D   |     S-CNN    |      |      | 48.3 | 43.7 | 36.6 | 27.8 | 19.4 |
+|  8 |        |    TSA-Net    | boundary |                 |  2Stream | UntrimmedNet |      |      | 53.2 | 48.1 | 41.5 | 31.5 | 21.7 |
+|  8 |        |    TSA-Net    | boundary |                 |    P3D   | UntrimmedNet |      |      | 61.2 | 55.9 | 46.9 | 36.1 | 25.2 |
+|  9 |        |  Zhao et al.  | boundary |                 |    I3D   |              |      |      | 53.9 | 50.7 | 45.4 | 38.0 | 28.5 |
 
 
 ### One-stage Localization
