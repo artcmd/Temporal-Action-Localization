@@ -1,6 +1,6 @@
 # Temporal Action Localization
 
-updated on 03/03/2020
+updated on 03/07/2020
 
 ## Contents
 
@@ -23,15 +23,15 @@ updated on 03/03/2020
 |:--:|:----------:|:-------------:|:---------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------:|
 |  1 |   CVPR16   |      PSDF     | Temporal Action Localization with Pyramid of Score Distribution Features                                  |                                                       |
 |  2 |   CVPR16   |     S-CNN     | Temporal Action Localization in Untrimmed Videos via Multi-stage CNNs                                     |                                                       |
-|  3 |   ICCV17   |     R-C3D     | R-C3D: Region Convolutional 3D Network for Temporal Activity Detection                                    | [Caffe](https://github.com/VisionLearningGroup/R-C3D) |
-|  4 |   ICCV17   |      TURN     | TURN TAP: Temporal Unit Regression Network for Temporal Action Proposals                                  |                                                       |
-|  5 |   BMVC17   |      CBR      | Cascaded Boundary Regression for Temporal Action Detection                                                |                                                       |
-|  6 |   CVPR17   |      SST      | SST: Single-Stream Temporal Action Proposals                                                              |                                                       |
-|  7 |   CVPR17   |      CDC      | CDC: Convolutional-De-Convolutional Networks for Precise Temporal Action Localization in Untrimmed Videos |                                                       |
+|  3 |   CVPR17   |      SST      | SST: Single-Stream Temporal Action Proposals                                                              |                                                       |
+|  4 |   CVPR17   |      CDC      | CDC: Convolutional-De-Convolutional Networks for Precise Temporal Action Localization in Untrimmed Videos |                                                       |
+|  5 |   ICCV17   |     R-C3D     | R-C3D: Region Convolutional 3D Network for Temporal Activity Detection                                    | [Caffe](https://github.com/VisionLearningGroup/R-C3D) |
+|  6 |   ICCV17   |      TURN     | TURN TAP: Temporal Unit Regression Network for Temporal Action Proposals                                  |                                                       |
+|  7 |   BMVC17   |      CBR      | Cascaded Boundary Regression for Temporal Action Detection                                                |                                                       |
 |  8 |   AAAI18   |      TPC      | Exploring Temporal Preservation Networks for Precise Temporal Action                                      |                                                       |
 |  9 |   CVPR18   |    TAL-Net    | Rethinking the Faster R-CNN Architecture for Temporal Action Localization                                 |                                                       |
 | 10 |   ECCV18   | Action Search | Action Search: Spotting Actions in Videos and Its Application to Temporal Action Localization             |                                                       |
-| 11 |   ICCV19   |     P-GCN     | Graph Convolutional Networks for Temporal Action Localization                                             | [PyTorch](https://github.com/Alvin-Zeng/PGCN)         |
+| 11 |   ICCV19   |     P-GCN     | Graph Convolutional Networks for Temporal Action Localization                                             |     [PyTorch](https://github.com/Alvin-Zeng/PGCN)     |
 | 12 |   ICCV19   |     C-TCN     | Deep Concept-wise Temporal Convolutional Networks for Action Localization                                 |                                                       |
 
 
@@ -47,7 +47,7 @@ updated on 03/03/2020
 | 6 |   AAAI20   |     DBG     | Fast Learning of Temporal Action Proposal via Dense Boundary Generator                                | [TensorFlow](https://github.com/TencentYoutuResearch/ActionDetection-DBG)    |
 | 7 |    TOMM    |     RAM     | Relation Attention for Temporal Action Localization                                                   |                                                                              |
 | 8 |            |   TSA-Net   | Scale Matters: Temporal Scale Aggregation Network for Precise Action Localization in Untrimmed Videos |                                                                              |
-| 9 |            | Zhao et al. | Constraining Temporal Relationship for Action Localization                                            |                                                                              |
+| 9 |            |    IC+EC    | Constraining Temporal Relationship for Action Localization                                            |                                                                              |
 
 
 ### One-stage Localization
