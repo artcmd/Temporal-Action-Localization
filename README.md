@@ -67,22 +67,24 @@ updated on 03/07/2020
 
 ## Weakly-supervised Action Localization
 
-|    | conference |      model     |                                                  paper                                                 |                                    code                                    |
-|:--:|:----------:|:--------------:|:------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|
-|  1 |   CVPR17   |  UntrimmedNet  | UntrimmedNets for Weakly Supervised Action Recognition and Detection                                   |                                                                            |
-|  2 |   CVPR17   | Richard et al. | Weakly Supervised Action Learning With RNN Based Fine-To-Coarse Modeling                               |                                                                            |
-|  3 |   ICCV17   |  Hide-and-Seek | Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization |                                                                            |
-|  4 |   CVPR18   |      STPN      | Weakly Supervised Action Localization by Sparse Temporal Pooling Network                               |                                                                            |
-|  5 |    MM18    |  Zhong et al.  | Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector              |                                                                            |
-|  6 |   ECCV18   |     W-TALC     | W-TALC: Weakly-supervised Temporal Activity Localization and Classification                            |                                                                            |
-|  7 |   ECCV18   |     AutoLoc    | AutoLoc: Weakly-supervised Temporal Action Localization                                                |                                                                            |
-|  8 |   AAAI19   |      STAR      | Segregated Temporal Assembly Recurrent Networks for Weakly Supervised Multiple Action Detection        |                                                                            |
-|  9 |   ICLR19   |      MAAN      | Marginalized Average Attentional Network for Weakly-Supervised Learning                                |                                                                            |
-| 10 |   CVPR19   |      CMCS      | Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization        | [PyTorch](https://github.com/Finspire13/CMCS-Temporal-Action-Localization) |
-| 11 |   ICCV19   |  Nguyen et al. | Weakly-supervised Action Localization with Background Modeling                                         |                                                                            |
-| 12 |   ICCV19   |    CleanNet    | Weakly Supervised Temporal Action Localization Through Contrast Based Evaluation Networks              |                                                                            |
-| 13 |   ICCV19   |     3C-Net     | 3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization                       |                                                                            |
-| 14 |   AAAI20   |     BasNet     | Background Suppression Network for Weakly-supervised Temporal Action Localization                      | [PyTorch](https://github.com/Pilhyeon/BaSNet-pytorch)                      |
+|    | conference |       model       |                                                  paper                                                 |                                              code                                             |
+|:--:|:----------:|:-----------------:|:------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+|  1 |   CVPR17   |    UntrimmedNet   | UntrimmedNets for Weakly Supervised Action Recognition and Detection                                   |                                                                                               |
+|  2 |   CVPR17   |   Richard et al.  | Weakly Supervised Action Learning With RNN Based Fine-To-Coarse Modeling                               |                                                                                               |
+|  3 |   ICCV17   |   Hide-and-Seek   | Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization |                                                                                               |
+|  4 |   CVPR18   |        STPN       | Weakly Supervised Action Localization by Sparse Temporal Pooling Network                               |                                                                                               |
+|  5 |    MM18    |    Zhong et al.   | Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector              |                                                                                               |
+|  6 |   ECCV18   |       W-TALC      | W-TALC: Weakly-supervised Temporal Activity Localization and Classification                            |                                                                                               |
+|  7 |   ECCV18   |      AutoLoc      | AutoLoc: Weakly-supervised Temporal Action Localization                                                |                                                                                               |
+|  8 |   AAAI19   |        STAR       | Segregated Temporal Assembly Recurrent Networks for Weakly Supervised Multiple Action Detection        |                                                                                               |
+|  9 |   ICLR19   |        MAAN       | Marginalized Average Attentional Network for Weakly-Supervised Learning                                |                                                                                               |
+| 10 |   CVPR19   |        CMCS       | Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization        | [PyTorch](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)                    |
+| 11 |   CVPR19   | Moltisanti et al. | Action Recognition from Single Timestamp Supervision in Untrimmed Videos                               | [PyTorch](https://bitbucket.org/dmoltisanti/action_recognition_single_timestamps/src/master/) |
+| 12 |   ICCV19   |   Nguyen et al.   | Weakly-supervised Action Localization with Background Modeling                                         |                                                                                               |
+| 13 |   ICCV19   |      CleanNet     | Weakly Supervised Temporal Action Localization Through Contrast Based Evaluation Networks              |                                                                                               |
+| 14 |   ICCV19   |       3C-Net      | 3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization                       |                                                                                               |
+| 15 |   AAAI20   |       BasNet      | Background Suppression Network for Weakly-supervised Temporal Action Localization                      | [PyTorch](https://github.com/Pilhyeon/BaSNet-pytorch)                                         |
+| 16 |            |       SF-Net      | SF-Net: Single-Frame Supervision for Temporal Action Localization                                      |                                                                                               |
 
 
 
