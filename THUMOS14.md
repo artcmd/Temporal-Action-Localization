@@ -1,6 +1,6 @@
 # Temporal Action Localization on THUMOS14
 
-updated on 03/07/2020
+updated on 03/26/2020
 
 ## Contents
 
@@ -128,4 +128,4 @@ updated on 03/07/2020
 | 14 | ICCV19 |       3C-Net      |     weak     |       I3D       | 59.1 | 53.5 | 44.2 | 34.1 | 26.6 |      |  8.1 |
 | 15 | AAAI20 |       BasNet      |     weak     |   UntrimmedNet  | 56.2 | 50.3 | 42.8 | 34.7 | 25.1 | 17.1 |  9.3 |
 | 15 | AAAI20 |       BasNet      |     weak     |       I3D       | 58.2 | 52.3 | 44.6 | 36.0 | 27.0 | 18.6 | 10.4 |
-| 16 |        |       SF-Net      | single frame |       I3D       | 70.0 |      | 53.3 |      | 28.8 |      |  9.7 |
+| 16 |        |       SF-Net      | single frame |       I3D       | 71.0 | 63.4 | 53.2 | 40.7 | 29.3 | 18.4 |  9.6 |

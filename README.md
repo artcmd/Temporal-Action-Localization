@@ -1,6 +1,6 @@
 # Temporal Action Localization
 
-updated on 03/07/2020
+updated on 03/26/2020
 
 ## Contents
 
