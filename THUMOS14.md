@@ -1,6 +1,6 @@
 # Temporal Action Localization on THUMOS14
 
-updated on 03/26/2020
+updated on 04/30/2020
 
 ## Contents
 
@@ -65,24 +65,24 @@ updated on 03/26/2020
 |  8 | AAAI18 |      TPC      |  region  |       NMS       |    C3D   |              |      |      | 44.1 | 37.1 | 28.2 | 20.6 | 12.7 |
 |  9 | CVPR18 |    TAL-Net    |  region  |                 |    I3D   |              | 59.8 | 57.1 | 53.2 | 48.5 | 42.8 | 33.8 | 20.8 |
 | 10 | ECCV18 | Action Search |  region  | Action Spotting |          |              |      |      | 51.8 | 42.4 | 30.8 | 20.2 | 11.1 |
-| 11 | ICCV19 |     P-GCN     |  region  |       BSN       |    I3D   |              | 69.5 | 67.8 | 63.6 | 57.8 | 49.1 |      |      |
-| 12 | ICCV19 |     C-TCN     |  region  |                 |    I3D   |              | 72.2 | 71.4 | 68.0 | 62.3 | 52.1 |      |      |
+| 11 | ICCV19 |     C-TCN     |  region  |                 |    I3D   |              | 72.2 | 71.4 | 68.0 | 62.3 | 52.1 |      |      |
 |  1 | ICCV17 |      SSN      | boundary |       TAG       |  2Stream |              | 60.3 | 56.2 | 50.6 | 40.8 | 29.1 |      |      |
 |  2 | ECCV18 |      BSN      | boundary |                 |  2Stream |     S-CNN    |      |      | 43.1 | 36.6 | 29.4 | 22.4 | 15.0 |
 |  2 | ECCV18 |      BSN      | boundary |                 |  2Stream | UntrimmedNet |      |      | 53.5 | 45.0 | 36.9 | 28.4 | 20.0 |
 |  3 | AAAI19 |      DBS      | boundary |                 |          |              | 56.7 | 54.7 | 50.6 | 43.1 | 34.3 | 24.4 | 14.7 |
 |  4 | CVPR19 |      MGG      | boundary |                 |  2Stream |     S-CNN    |      |      | 44.9 | 37.8 | 29.9 | 23.6 | 15.8 |
 |  4 | CVPR19 |      MGG      | boundary |                 |  2Stream | UntrimmedNet |      |      | 53.9 | 46.8 | 37.4 | 29.5 | 21.3 |
-|  5 | ICCV19 |      BMN      | boundary |                 |  2Stream |     S-CNN    |      |      | 45.7 | 40.2 | 32.2 | 24.5 | 17.0 |
-|  5 | ICCV19 |      BMN      | boundary |                 |  2Stream | UntrimmedNet |      |      | 56.0 | 47.4 | 38.8 | 29.7 | 20.5 |
-|  6 | AAAI20 |      DBG      | boundary |       TSN       |  2Stream |     S-CNN    |      |      | 45.9 | 40.4 | 32.9 | 25.3 | 18.4 |
-|  6 | AAAI20 |      DBG      | boundary |       TSN       |  2Stream | UntrimmedNet |      |      | 57.8 | 49.4 | 39.8 | 30.2 | 21.7 |
-|  7 |  ToMM  |      RAM      | boundary |       TAG       |  SSN+RAM |              | 65.4 | 63.1 | 58.8 | 52.7 | 43.7 |      |      |
-|  8 |        |    TSA-Net    | boundary |                 |  2Stream |     S-CNN    |      |      | 43.7 | 39.2 | 33.1 | 25.2 | 17.1 |
-|  8 |        |    TSA-Net    | boundary |                 |    P3D   |     S-CNN    |      |      | 48.3 | 43.7 | 36.6 | 27.8 | 19.4 |
-|  8 |        |    TSA-Net    | boundary |                 |  2Stream | UntrimmedNet |      |      | 53.2 | 48.1 | 41.5 | 31.5 | 21.7 |
-|  8 |        |    TSA-Net    | boundary |                 |    P3D   | UntrimmedNet |      |      | 61.2 | 55.9 | 46.9 | 36.1 | 25.2 |
-|  9 |        |     IC+EC     | boundary |                 |    I3D   |              |      |      | 53.9 | 50.7 | 45.4 | 38.0 | 28.5 |
+|  5 | ICCV19 |     P-GCN     | boundary |       BSN       |    I3D   |              | 69.5 | 67.8 | 63.6 | 57.8 | 49.1 |      |      |
+|  6 | ICCV19 |      BMN      | boundary |                 |  2Stream |     S-CNN    |      |      | 45.7 | 40.2 | 32.2 | 24.5 | 17.0 |
+|  6 | ICCV19 |      BMN      | boundary |                 |  2Stream | UntrimmedNet |      |      | 56.0 | 47.4 | 38.8 | 29.7 | 20.5 |
+|  7 | TOMM19 |      RAM      | boundary |       TAG       |  SSN+RAM |              | 65.4 | 63.1 | 58.8 | 52.7 | 43.7 |      |      |
+|  8 | AAAI20 |      DBG      | boundary |       TSN       |  2Stream |     S-CNN    |      |      | 45.9 | 40.4 | 32.9 | 25.3 | 18.4 |
+|  8 | AAAI20 |      DBG      | boundary |       TSN       |  2Stream | UntrimmedNet |      |      | 57.8 | 49.4 | 39.8 | 30.2 | 21.7 |
+|  9 |        |    TSA-Net    | boundary |                 |  2Stream |     S-CNN    |      |      | 43.7 | 39.2 | 33.1 | 25.2 | 17.1 |
+|  9 |        |    TSA-Net    | boundary |                 |    P3D   |     S-CNN    |      |      | 48.3 | 43.7 | 36.6 | 27.8 | 19.4 |
+|  9 |        |    TSA-Net    | boundary |                 |  2Stream | UntrimmedNet |      |      | 53.2 | 48.1 | 41.5 | 31.5 | 21.7 |
+|  9 |        |    TSA-Net    | boundary |                 |    P3D   | UntrimmedNet |      |      | 61.2 | 55.9 | 46.9 | 36.1 | 25.2 |
+| 10 |        |     IC+EC     | boundary |                 |    I3D   |              |      |      | 53.9 | 50.7 | 45.4 | 38.0 | 28.5 |
 
 
 ### One-stage Localization
@@ -99,7 +99,7 @@ updated on 03/26/2020
 | 6 | CVPR19 |      GTAN     | one-stage |         P3D        | 69.1 | 63.7 | 57.8 | 47.2 | 38.8 |      |      |
 | 7 | ICME19 | Decouple-SSAD | one-stage |  2Stream (UCF101)  |      |      | 49.9 | 44.4 | 35.8 | 24.3 | 13.6 |
 | 7 | ICME19 | Decouple-SSAD | one-stage | 2Stream (Kinetics) |      |      | 60.2 | 54.1 | 44.2 | 32.3 | 19.1 |
-| 8 |        |     G-TAD     | one-stage |       GCNeXt       |      |      | 54.5 | 47.6 | 40.2 | 30.8 | 23.4 |
+| 8 | CVPR20 |     G-TAD     | one-stage |       GCNeXt       |      |      | 54.5 | 47.6 | 40.2 | 30.8 | 23.4 |
 
 
 ## Weakly-supervised Action Localization
